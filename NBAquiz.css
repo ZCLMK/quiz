@@ -1,0 +1,85 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  /*  width: 100??*/
+}
+/*  These two disable vertical scrolling*/
+html, body{
+  overflow-x: hidden;
+}
+html{
+    font-size: 100%;
+}
+body{
+  position:relative;
+  height:100vh;
+}
+/* ------------------------------------- */
+#header{
+  display: inline-flex;
+  align-items: center;
+  height:20vh;
+  font-size: 0.55em;
+  background-color:#272e2e;
+  color:white;
+
+}
+h1{
+  margin: 0 3vw;
+  text-align: center;
+}
+#wrapper{
+  display: flex;
+  flex-direction: column;
+  height:inherit;
+}
+#content{
+  height:100;
+  background-color:rgb(223, 111, 0);
+
+}
+#choix{
+  font-family: 'Lobster', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 65vh;
+}
+.check{
+  visibility: hidden;
+}
+.boxChoix{
+  margin: 0 5vw;
+  padding:.5em;
+  border-radius: 10px;
+  background-color: #272e2e;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+}
+footer{
+  height:15vh;
+  background-color:#272e2e;
+  display: inline-flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+#submit{
+  border: 0.3px white solid;
+  border-radius: 10px;
+  width:50%;
+  height: 50%;
+  color:white;
+  background-color: grey;
+}
+.noAnswer
+{
+background-color: red;
+}
+.answered
+{
+  background-color: green;
+}
